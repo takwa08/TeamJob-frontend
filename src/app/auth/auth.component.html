@@ -1,0 +1,227 @@
+<body>
+    <img src="../../assets/TJ.jpg" class="imagefull" >
+    <h1></h1><h1></h1>
+<div class = "center-content">
+<mat-card class="example-card">
+    <img src="../../assets/Capture-removebg-preview.png" width="230px" height =" 85px" ><h1></h1>
+    <mat-card-header>
+      <div mat-card-avatar ></div><h1></h1>
+      <mat-card-title>Welcome to our Application</mat-card-title>
+      <mat-card-subtitle>We make your life easier</mat-card-subtitle>
+    </mat-card-header>
+    <mat-card-content>
+        <mat-tab-group mat-align-tabs="center" animationDuration="2000ms">
+            <mat-tab label="Entreprise">
+                <ng-template mat-tab-label>
+                    <mat-icon class="example-tab-icon"><img src = "../../assets/culture-dentreprise.png" width="35px" height="35px"></mat-icon>
+                    Entreprise
+                  </ng-template>
+                <br>
+                <p style="font-family: Comic Sans MS">Welcome our dear Entreprise</p> 
+                <p style="font-family: Comic Sans MS">Clickez Register pour la creation d'un compte !</p> 
+                <mat-tab-group class ="matTabEnt" mat-align-tabs="center">
+                    <mat-tab label="Login"> 
+                        <ng-template mat-tab-label>
+                            <mat-icon class="example-tab-icon"><img src = "../../assets/user.png" width="35px" height="35px"></mat-icon>
+                            Login
+                          </ng-template>
+                        <br>
+                        <form class="example-form">
+                          <mat-form-field class="example-full-width" appearance="fill">
+                            <mat-label>Email</mat-label>
+                            <input matInput class="form-control" type="email" placeholder="Email" required="" id="ent-email-log">
+                          </mat-form-field>
+                          <mat-form-field class="example-full-width" appearance="fill">
+                              <mat-label>Password</mat-label>
+                              <input matInput class="form-control" type="password" placeholder="Password" required="" id="ent-email-log">
+                            </mat-form-field>  
+                            <div class="d-flex flex-wrap justify-content-between">
+                              <div class="custom-control custom-checkbox">
+                                  <input class="custom-control-input" type="checkbox" checked="" id="remember_me">
+                                  <label class="custom-control-label" for="remember_me" >Remember me</label>
+                              </div><a class="nav-link-inline font-size-sm" href="account-password-recovery.html" style ="color: brown;">Forgot password?</a>
+                          </div>
+                          <hr class="mt-4">
+                          <div class="text-right pt-4">
+                              <button class="btn btn-primary" type="submit">Sign In</button>
+                          </div>
+                          <br>
+                        </form>
+                       </mat-tab>
+                  <mat-tab label="Register"> 
+                      <ng-template mat-tab-label>
+                          <mat-icon class="example-tab-icon"><img src = "../../assets/add-user.png" width="35px" height="35px"></mat-icon>
+                          Register
+                        </ng-template>
+                      <br>
+                      <form class="example-form">
+                          <mat-form-field class="example-full-width" appearance="fill">
+                              <mat-label>First Name</mat-label>
+                              <input matInput class="form-control" type="text" placeholder="first name" required="" id="ent-firstName">
+                              <div class="invalid-feedback">Please enter your first name!</div>
+                            </mat-form-field>
+                            <mat-form-field class="example-full-width" appearance="fill">
+                              <mat-label>Last Name</mat-label>
+                              <input matInput class="form-control" type="text" placeholder="last name" required="" id="ent-lastName">
+                              <div class="invalid-feedback">Please enter your last name!</div>
+                            </mat-form-field>
+                            <mat-form-field class="example-full-width" appearance="fill">
+                              <mat-label>Email Address</mat-label>
+                              <input matInput class="form-control" type="email" placeholder="First-name" required="" id="ent-email">
+                              <div class="invalid-feedback">Please enter your adress email!</div>
+                            </mat-form-field>
+                            <mat-form-field class="example-full-width" appearance="fill">
+                              <mat-label>Phone Number</mat-label>
+                              <input matInput class="form-control" type="number" placeholder="First-name" required="" id="ent-phone">
+                              <div class="invalid-feedback">Please enter your phone number!</div>
+                            </mat-form-field>
+                            <mat-form-field class="example-full-width" appearance="fill">
+                              <mat-label>Country</mat-label>
+                              <input matInput class="form-control" type="text" placeholder="First-name" required="" id="ent-country">
+                              <div class="invalid-feedback">Please enter your Country!</div>
+                            </mat-form-field>
+                            <mat-form-field class="example-full-width" appearance="fill">
+                              <mat-label>Entreprise Name</mat-label>
+                              <input matInput class="form-control" type="text" placeholder="First-name" required="" id="ent-entName">
+                              <div class="invalid-feedback">Please enter the name of your Entreprise!</div>
+                            </mat-form-field>
+                            <mat-form-field class="example-full-width" appearance="fill">
+                              <mat-label>Address</mat-label>
+                              <input matInput class="form-control" type="text" placeholder="First-name" required="" id="ent-address">
+                              <div class="invalid-feedback">Please enter your address!</div>
+                            </mat-form-field>
+                            <mat-form-field class="example-full-width" appearance="fill">
+                              <mat-label>Postal Code</mat-label>
+                              <input matInput class="form-control" type="number" placeholder="First-name" required="" id="ent-postal">
+                              <div class="invalid-feedback">Please enter your postal code!</div>
+                            </mat-form-field>
+                            <mat-form-field class="example-full-width" appearance="fill">
+                              <mat-label>Password</mat-label>
+                              <input matInput class="form-control" type="password" placeholder="Password" required="" id="ent-password">
+                              <div class="invalid-feedback">Please enter password!</div>
+                          </mat-form-field>  
+                            <mat-form-field class="example-full-width" appearance="fill">
+                              <mat-label>Confirm Password</mat-label>
+                              <input matInput class="form-control" type="password" placeholder="Password" required="" id="ent-password-confirm">
+                              <div class="invalid-feedback">Passwords do not match!</div> 
+                          </mat-form-field>  
+                          <br>
+                          <div class="text-right">
+                              <button class="btn btn-primary" type="submit">Sign Up</button>
+                          </div>
+                          <br>
+                      </form>      
+                    </mat-tab>
+                  </mat-tab-group>
+                <br>
+                 </mat-tab>
+            <mat-tab label="Etudiant">
+                <ng-template mat-tab-label>
+                    <mat-icon class="example-tab-icon"><img src = "../../assets/etudiant-diplome.png" width="35px" height="35px"></mat-icon>
+                    Etudiant
+                  </ng-template>
+                  <br>
+                  <p style="font-family: Comic Sans MS"> Clickez Register pour la creation d'un compte !</p> 
+                  <p style="font-family: Comic Sans MS">Welcome our dear Student</p> 
+                  <mat-tab-group class ="matTabEnt" mat-align-tabs="center">
+                      <mat-tab label="Login"> 
+                          <ng-template mat-tab-label>
+                              <mat-icon class="example-tab-icon"><img src = "../../assets/user.png" width="35px" height="35px"></mat-icon>
+                              Login
+                            </ng-template>
+                          <br>
+                          <form class="example-form">
+                              <mat-form-field class="example-full-width" appearance="fill">
+                                <mat-label>Email</mat-label>
+                                <input matInput class="form-control" type="email" placeholder="Email" required="" id="etud-email-log">
+                              </mat-form-field>
+                              <mat-form-field class="example-full-width" appearance="fill">
+                                  <mat-label>Password</mat-label>
+                                  <input matInput class="form-control" type="password" placeholder="Password" required="" id="etud-email-log">
+                                </mat-form-field>  
+                                <div class="d-flex flex-wrap justify-content-between">
+                                  <div class="custom-control custom-checkbox">
+                                      <input class="custom-control-input" type="checkbox" checked="" id="remember_me">
+                                      <label class="custom-control-label" for="remember_me" >Remember me</label>
+                                  </div><a class="nav-link-inline font-size-sm" href="account-password-recovery.html" style ="color: brown;">Forgot password?</a>
+                              </div>
+                              <hr class="mt-4">
+                              <div class="text-right pt-4">
+                                  <button class="btn btn-primary" type="submit">Sign In</button>
+                              </div>
+                              <br>
+                            </form>
+                           </mat-tab>
+                      <mat-tab label="Register"> 
+                          <ng-template mat-tab-label>
+                              <mat-icon class="example-tab-icon"><img src = "../../assets/add-user.png" width="35px" height="35px"></mat-icon>
+                              Register
+                            </ng-template>
+                          <br>
+                          <form class="example-form">
+                              <mat-form-field class="example-full-width" appearance="fill">
+                                  <mat-label>First Name</mat-label>
+                                  <input matInput class="form-control" type="text" placeholder="first name" required="" id="etud-firstName">
+                                  <div class="invalid-feedback">Please enter your first name!</div>
+                                </mat-form-field>
+                                <mat-form-field class="example-full-width" appearance="fill">
+                                  <mat-label>Last Name</mat-label>
+                                  <input matInput class="form-control" type="text" placeholder="last name" required="" id="etud-lastName">
+                                  <div class="invalid-feedback">Please enter your last name!</div>
+                                </mat-form-field>
+                                <mat-form-field class="example-full-width" appearance="fill">
+                                  <mat-label>Email Address</mat-label>
+                                  <input matInput class="form-control" type="email" placeholder="First-name" required="" id="etud-email">
+                                  <div class="invalid-feedback">Please enter your adress email!</div>
+                                </mat-form-field>
+                                <mat-form-field class="example-full-width" appearance="fill">
+                                  <mat-label>Phone Number</mat-label>
+                                  <input matInput class="form-control" type="number" placeholder="First-name" required="" id="etud-phone">
+                                  <div class="invalid-feedback">Please enter your phone number!</div>
+                                </mat-form-field>
+                                <mat-form-field class="example-full-width" appearance="fill">
+                                  <mat-label>Country</mat-label>
+                                  <input matInput class="form-control" type="text" placeholder="First-name" required="" id="etud-country">
+                                  <div class="invalid-feedback">Please enter your Country!</div>
+                                </mat-form-field>
+                                <mat-form-field class="example-full-width" appearance="fill">
+                                  <mat-label>Entreprise Name</mat-label>
+                                  <input matInput class="form-control" type="text" placeholder="First-name" required="" id="etud-entName">
+                                  <div class="invalid-feedback">Please enter the name of your Entreprise!</div>
+                                </mat-form-field>
+                                <mat-form-field class="example-full-width" appearance="fill">
+                                  <mat-label>Address</mat-label>
+                                  <input matInput class="form-control" type="text" placeholder="First-name" required="" id="etud-address">
+                                  <div class="invalid-feedback">Please enter your address!</div>
+                                </mat-form-field>
+                                <mat-form-field class="example-full-width" appearance="fill">
+                                  <mat-label>Postal Code</mat-label>
+                                  <input matInput class="form-control" type="number" placeholder="First-name" required="" id="etud-postal">
+                                  <div class="invalid-feedback">Please enter your postal code!</div>
+                                </mat-form-field>
+                                <mat-form-field class="example-full-width" appearance="fill">
+                                  <mat-label>Password</mat-label>
+                                  <input matInput class="form-control" type="password" placeholder="Password" required="" id="etud-password">
+                                  <div class="invalid-feedback">Please enter password!</div>
+                              </mat-form-field>  
+                                <mat-form-field class="example-full-width" appearance="fill">
+                                  <mat-label>Confirm Password</mat-label>
+                                  <input matInput class="form-control" type="password" placeholder="Password" required="" id="etud-password-confirm">
+                                  <div class="invalid-feedback">Passwords do not match!</div> 
+                              </mat-form-field>  
+                              <br>
+                              <div class="text-right">
+                                  <button class="btn btn-primary" type="submit">Sign Up</button>
+                              </div>
+                              <br>
+                          </form>    
+                      </mat-tab>
+                    </mat-tab-group>
+                </mat-tab>
+          </mat-tab-group>
+    </mat-card-content>
+    <mat-card-actions>
+    </mat-card-actions> 
+  </mat-card> 
+</div>
+</body>
