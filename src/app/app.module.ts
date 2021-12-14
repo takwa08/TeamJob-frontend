@@ -5,13 +5,10 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { SearchComponent } from './search/search.component';
-import { LoginComponent } from './login/login.component';
 import { ProfileComponent } from './profile/profile.component';
 import { AcceilComponent } from './acceil/acceil.component';
-import { FormsModule } from '@angular/forms';
+import { FormsModule,ReactiveFormsModule } from '@angular/forms';
 import { NavlogComponent } from './navlog/navlog.component';
-import { AuthEtudiantComponent } from './auth-etudiant/auth-etudiant.component';
-import { AuthEntrepriseComponent } from './auth-entreprise/auth-entreprise.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AuthComponent } from './auth/auth.component';
 import { MatSliderModule } from '@angular/material/slider';
@@ -19,6 +16,8 @@ import {MatCardModule} from '@angular/material/card';
 import {MatTabsModule} from '@angular/material/tabs';
 import {MatInputModule} from '@angular/material/input';
 import {MatIconModule} from '@angular/material/icon';
+import { HttpClientModule } from '@angular/common/http';
+
 
 @NgModule({
   declarations: [
@@ -26,12 +25,10 @@ import {MatIconModule} from '@angular/material/icon';
     HomeComponent,
     NavbarComponent,
     SearchComponent,
-    LoginComponent,
+
     ProfileComponent,
     AcceilComponent,
     NavlogComponent,
-    AuthEtudiantComponent,
-    AuthEntrepriseComponent,
     AuthComponent
 
   ],
@@ -44,8 +41,9 @@ import {MatIconModule} from '@angular/material/icon';
     MatCardModule,
     MatTabsModule,
     MatInputModule,
-    MatIconModule
-    
+    MatIconModule,
+     ReactiveFormsModule,
+     HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
