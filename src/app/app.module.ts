@@ -5,7 +5,6 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { SearchComponent } from './search/search.component';
-import { LoginComponent } from './login/login.component';
 import { ProfileComponent } from './profile/profile.component';
 import { AcceilComponent } from './acceil/acceil.component';
 import { FormsModule,ReactiveFormsModule } from '@angular/forms';
@@ -26,7 +25,7 @@ import { HttpClientModule } from '@angular/common/http';
     HomeComponent,
     NavbarComponent,
     SearchComponent,
-    LoginComponent,
+
     ProfileComponent,
     AcceilComponent,
     NavlogComponent,
