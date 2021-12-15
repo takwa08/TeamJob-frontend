@@ -10,7 +10,8 @@
     margin-top: 2%;
 }
 
-.footer {
+#footer {
+   margin-left: 285px;
     text-align:center;
     clear:both;
 }
